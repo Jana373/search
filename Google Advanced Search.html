@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+
+    </head>
+    <body>
+        <a href="index.html"><img src="google.png" alt="" id = "mini_google_logo"></a>
+        <div style="display: inline">
+            <a  class = "links" href = "index.html">Google Search</a>
+        </div>
+        <div class ="bar">
+            <label style ="margin-left:10px">Advanced Search</label>
+        </div>
+
+        <span class = "line"></span>
+
+        
+      <div class = "top">
+        <form action ="https://google.com/search">
+            <div class = "mainContainer" >
+                <div class ="rowContainer">
+                    <div class="cellContainer Label0">Find pages with...</div> 
+                    <div class="sizing cellContainer">&nbsp;</div>
+                    <div class="cellContainer Label2">
+                        To do this in the search box.                    
+                    </div>
+                </div>
+                <div class ="rowContainer">
+                    <div class="labels cellContainer">all these words:</div>
+                    <div style="padding-right: 16px;">
+                        <input class = "searchBar1" type ="text" name = "as_q">
+                    </div>
+                   
+                    <div class="cellContainer Label1" >
+                        Type the important words: 
+                      <span class = "desc"> tri-colour rat terrier</span>  
+                        
+                    </div>
+                </div>
+                <div class ="rowContainer">
+                    <div class="labels cellContainer">this exact word or phrase:</div>
+                    <div style="padding-right: 16px;">
+                        <input class = "searchBar1"type ="text" name = "as_epq">
+                    </div>
+                    
+                    <div class="cellContainer Label1" >
+                        Put exact words in quotes: 
+                      <span class = "desc"> "rat terrier"</span>  
+                    </div>
+                </div>
+                <div class ="rowContainer">
+                    <div class="labels cellContainer">any of these words:</div>
+                    <div style="padding-right: 16px;">
+                        <input class = "searchBar1"type ="text" name = "as_oq">
+                    </div>
+                    
+                    <div class="cellContainer Label1" >
+                        Type OR between all the words you want:
+                      <span class = "desc"> miniature OR standard</span>  
+                        
+                    </div>
+                </div>
+                <div class ="rowContainer">
+                    <div class="labels cellContainer">none of these words:</div>
+                    <div style="padding-right: 16px;">
+                        <input class = "searchBar1" type ="text" name = "as_eq">
+                    </div>
+                    
+                    <div class="cellContainer Label1" >
+                        Put a minus sign just before words that you don't want: 
+                      <span class = "desc"> -rodent, -"Jack Russell"</span>  
+                        
+                    </div>
+                </div>
+                <div class ="rowContainer">
+                    <div class="labels cellContainer">numbers ranging from:</div>
+
+                    <div style="display: table;width: 100%;">
+                        <div class = "subCell">
+                            <input class = "searchBar1" type = "text" name = "as_nlo">
+                        </div>
+                        <div id = "to">
+                            to
+                        </div>
+                        <div class = "subCell">
+                            <input class = "searchBar1" type = "text" name = "as_nhi">
+                        </div>
+
+                    </div>
+                                        
+                    <div class="cellContainer Label1" >
+                        Put two full stops between the numbers and add a unit of measurement: 
+                      <span class = "desc">10..35 kg, £300..£500, 2010..2011</span>  
+                        
+                    </div>
+                </div>
+
+            </div>
+           
+           <input id = "Advanced" type = "submit" value = "Advanced Search">
+
+        </form>
+
+      </div>
+      <span class = "line" style="margin-top: 57px;"></span>
+    </body>
+</html> 
